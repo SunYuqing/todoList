@@ -23,4 +23,4 @@
 
 ### 在线预览
 
-   [在线demo](sunyuqing.coding.me/todolist){:target="_blank"}
+   [在线demo](http://sunyuqing.coding.me/todolist)
