@@ -11,11 +11,10 @@
 ### 技术清单 ：
 
   1. localStorage--储存数据
-~~2. jQuery--操作数据~~
-  3. css3--样式，如transition
-  4. es6--箭头函数等
-  5. stylus--书写样式
-  6. gulp--编译打包等自动化构建
+  2. css3--样式，如transition
+  3. es6--箭头函数等
+  4. stylus--书写样式
+  5. gulp--编译打包等自动化构建
 
 ### 项目截图
 
