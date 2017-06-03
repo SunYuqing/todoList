@@ -11,7 +11,7 @@
 ### 技术清单 ：
 
    1. localStorage--储存数据
-   2. jQuery--操作数据 -->**没有使用**
+   ~~2. jQuery--操作数据 ~~
    3. css3--样式，如transition
    4. es6--箭头函数等
    5. stylus--书写样式
