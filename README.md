@@ -1,6 +1,6 @@
 ## todoList
 
-* 利用HTML、css3、jQuery实现的待办事项小应用。
+* 利用HTML、css3、es6实现的待办事项小应用。
 * 使用localStorage存储数据到本地。
 * 详细的代码注释(样式注释写在stylus里面)。
 * 实现如下功能：
