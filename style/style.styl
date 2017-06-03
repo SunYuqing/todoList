@@ -1,0 +1,75 @@
+// 样式重置
+*
+    padding: 0
+    margin: 0
+li
+    list-style: none
+
+// 布局样式
+html
+    display: flex   //flex布局
+    justify-content: center
+    align-items: center
+    text-align: center
+    min-height: 100vh  //vh这个高度是指浏览器视口高度，即window.innerHeight.100vh为100%视口高度。
+    box-sizing: border-box
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif
+    background:#ffc600;
+svg
+    fill:white
+    background: rgba(0,0,0,0.1)
+    padding: 20px
+    border-radius: 50%
+    width:100px
+    margin-bottom: 50px
+
+.container
+    padding: 20px
+    max-width: 350px
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1)
+    background: #fff
+    .item-area
+        .title
+            text-align: center
+            margin: 10px 0
+            color: #aaa
+            font-weight: 200
+        .item
+            background: #fff
+            border-radius: 4px
+            .item-li-default
+                color: #46B7B9
+            .item-li
+                width: 100%
+                border-bottom: 1px solid #eee
+                height: 30px
+                line-height: 30px
+                text-align: left
+                color: #F95959
+                .delete-item
+                    float: right
+                    outline: none
+                    width: 44px
+                    height: 26px
+                    border-radius: 4px
+                    color: #F05941
+                    background: #fafafa
+                input:checked + .item-text
+                    color: #196B69
+                    text-decoration: line-through
+    .input-area
+        padding-top: 10px
+        .add-text
+            outline: 0
+            border: 1px solid rgba(0, 0, 0, 0.1)
+            height: 40px
+            border-radius: 4px
+            text-indent: 10px
+        .add-button
+            outline: 0
+            height: 40px
+            border-radius: 4px
+            width: 60px
+            padding: 4px
+            background-color: #fff
+            border: 1px solid rgba(0, 0, 0, 0.1)
